@@ -55,7 +55,7 @@ MessageImage.defaultProps = {
 
 MessageImage.propTypes = {
   currentMessage: PropTypes.object,
-  containerStyle: ViewPropTypes.style,
+  containerStyle: View.propTypes.style,
   imageStyle: Image.propTypes.style,
   imageProps: PropTypes.object,
   lightboxProps: PropTypes.object,

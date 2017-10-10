@@ -239,25 +239,25 @@ Bubble.propTypes = {
   nextMessage: PropTypes.object,
   previousMessage: PropTypes.object,
   containerStyle: PropTypes.shape({
-    left: ViewPropTypes.style,
-    right: ViewPropTypes.style,
+    left: View.propTypes.style,
+    right: View.propTypes.style,
   }),
   wrapperStyle: PropTypes.shape({
-    left: ViewPropTypes.style,
-    right: ViewPropTypes.style,
+    left: View.propTypes.style,
+    right: View.propTypes.style,
   }),
   bottomContainerStyle: PropTypes.shape({
-    left: ViewPropTypes.style,
-    right: ViewPropTypes.style,
+    left: View.propTypes.style,
+    right: View.propTypes.style,
   }),
   tickStyle: Text.propTypes.style,
   containerToNextStyle: PropTypes.shape({
-    left: ViewPropTypes.style,
-    right: ViewPropTypes.style,
+    left: View.propTypes.style,
+    right: View.propTypes.style,
   }),
   containerToPreviousStyle: PropTypes.shape({
-    left: ViewPropTypes.style,
-    right: ViewPropTypes.style,
+    left: View.propTypes.style,
+    right: View.propTypes.style,
   }),
   //TODO: remove in next major release
   isSameDay: PropTypes.func,

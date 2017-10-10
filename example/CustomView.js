@@ -6,6 +6,7 @@ import {
   StyleSheet,
   TouchableOpacity,
   ViewPropTypes,
+  View
 } from 'react-native';
 import MapView from 'react-native-maps';
 
@@ -63,6 +64,6 @@ CustomView.defaultProps = {
 
 CustomView.propTypes = {
   currentMessage: PropTypes.object,
-  containerStyle: ViewPropTypes.style,
-  mapViewStyle: ViewPropTypes.style,
+  containerStyle: View.propTypes.style,
+  mapViewStyle: View.propTypes.style,
 };

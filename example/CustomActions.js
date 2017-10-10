@@ -199,7 +199,7 @@ CustomActions.propTypes = {
   onSend: PropTypes.func,
   options: PropTypes.object,
   icon: PropTypes.func,
-  containerStyle: ViewPropTypes.style,
-  wrapperStyle: ViewPropTypes.style,
+  containerStyle: View.propTypes.style,
+  wrapperStyle: View.propTypes.style,
   iconTextStyle: Text.propTypes.style,
 };

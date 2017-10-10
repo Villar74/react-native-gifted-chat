@@ -99,12 +99,12 @@ Avatar.propTypes = {
   nextMessage: PropTypes.object,
   onPressAvatar: PropTypes.func,
   containerStyle: PropTypes.shape({
-    left: ViewPropTypes.style,
-    right: ViewPropTypes.style,
+    left: View.propTypes.style,
+    right: View.propTypes.style,
   }),
   imageStyle: PropTypes.shape({
-    left: ViewPropTypes.style,
-    right: ViewPropTypes.style,
+    left: View.propTypes.style,
+    right: View.propTypes.style,
   }),
   //TODO: remove in next major release
   isSameDay: PropTypes.func,
