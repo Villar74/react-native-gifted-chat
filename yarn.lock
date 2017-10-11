@@ -1016,9 +1016,9 @@ react-native-communications@2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/react-native-communications/-/react-native-communications-2.2.1.tgz#7883b56b20a002eeb790c113f8616ea8692ca795"
 
-"react-native-invertible-scroll-view@https://github.com/Villar74/react-native-invertible-scroll-view/tarball/8faddb2eb504a247a20caad0c868bd5c3e2c87bc":
+"react-native-invertible-scroll-view@https://github.com/Villar74/react-native-invertible-scroll-view/tarball/bcc65f3be5e11e72ed8e3875ba67895624250589":
   version "1.0.0"
-  resolved "https://github.com/Villar74/react-native-invertible-scroll-view/tarball/8faddb2eb504a247a20caad0c868bd5c3e2c87bc"
+  resolved "https://github.com/Villar74/react-native-invertible-scroll-view/tarball/bcc65f3be5e11e72ed8e3875ba67895624250589"
   dependencies:
     react-clone-referenced-element "^1.0.1"
     react-native-scrollable-mixin "^1.0.1"
